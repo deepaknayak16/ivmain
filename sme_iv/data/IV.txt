@@ -1,0 +1,94 @@
+import datetime
+import sys
+
+time= time.sys
+
+print(time)
+
+
+def recr_fact(n):
+if n == 1:
+return n 
+else:
+retun n*recr_fact(n-1)
+
+num = 7
+
+if num < 0:
+print ("-ve number")
+elif num == 0:
+print ("factorial of 0 is 1")
+else:
+print ("factorial of", num, "is", recr_fact(num))
+
+chomd +x 
++r
+
+
+
+class erase():
+
+def earse data ()
+
+
+syslog (filename) outputpath
+
+
+L= []
+for i in range(2000, 3201):
+    if (i%7 == 0) and (i%5 ==0):
+        L.append(str(i))
+print(','.join(L))
+
+def fabo(n):
+if n <= 1:
+return(n)
+else:
+return (fibo(n-1)+fibo(n-2))
+nterm = 8
+if nterm <=1:
+print("-ve number")
+else:
+for i in range(nterm)
+print(fibo(i))
+
+number = 3
+if number > 1:
+for i in range (2, number):
+if (number % i) == 0:
+print (not a prime number)
+break
+else:
+print ("print prime number")
+else:
+print("not prime number")
+
+numbers = ["A", "B", "C", "D"]
+values = {
+    "A": 1,
+    "B": 2,
+    "C": 3,
+    "D": 4
+}
+total = 0  # start counting from 0
+
+for k in numbers:
+    total += values[k]  # for each value add it to the total
+
+print(total)  
+
+
+
+
+## *args will give you all the function parameter as a tupple
+def foo(*args):
+    for a in args:
+        print(a)
+foo(1,2,3)
+
+## **kwargs will give you all keyword argument expect those correspending to formal parameter as a dictonary
+def bar(**kwargs):
+    #for b in kwargs:
+        print(kwargs)
+        
+bar(name="deepak", age=56)

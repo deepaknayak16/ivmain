@@ -1,0 +1,14 @@
+IPC mechanisms in Linux
+Ans. IPC mechanisms in Linux are used for inter-process communication between processes running on the same system.
+IPC mechanisms include pipes, message queues, shared memory, and semaphores.
+
+Pipes are used for one-way communication between two processes.
+
+Message queues allow for asynchronous communication between processes.
+
+Shared memory allows multiple processes to access the same memory space.
+
+Semaphores are used for synchronization between processes.
+
+IPC mechanisms can be accessed through system calls such as pipe(), msgget(), shmat(), and semop().
+

@@ -1,0 +1,150 @@
+Input = "ab 12 { cd 34 } ef 56"
+import re
+regx = re.match(\d[0-9])
+print (regx)
+
+
+from collections import defaultdict
+
+m = defaultdict(int)
+s = input()
+for i in s:
+    print(ord(i))
+    m[ord(i)] += 1
+    m[ord(i) - 32] += 1
+    m[ord(i) + 32] += 1
+    
+for i in range(len(s)):
+    print(i)
+    if m[ord(s[i])] == 1:
+        print(i + 1, end=" ")
+
+
+
+1)Find second highest element from the array
+2)Count possible decodings of a given digit sequence
+3)Count of hcf pair for a given number in python
+
+
+
+
+
+Integer Caching Mechanism in Python
+How To Avoid Nested Loops
+Class Methods and Static Methods
+Uses of Eval Functions
+How to use Abstract Classes
+The Mechanism of Passing Arguments to Python Functions
+Garbage Collection in Python
+Receive an Unlimited Number of Arguments in Python Functions
+Lambda Functions
+Comprehensions in Python
+
+
+
+
+
+1.       Find unique words in sentence with the occurrence of each word
+
+ 
+
+2.       Write example for decorators
+
+ 
+
+3.       Write a function in Python to accept args, kwargs
+
+ 
+
+4.       Explain lambda function and apply to list
+
+ 
+
+5.       Example with List comprehension
+
+ 
+
+6.       Explain context managers in Python
+
+ 
+
+7.       Explain Fixtures in pytest
+
+ 
+
+8.       Explain NFS and SMB, and 3 scenarios to test
+
+ 
+
+ 
+
+9.       Disadvantages of raid 6 over raid 5.
+
+ 
+
+10.   Scenario based question for Snapshot.
+
+ 
+
+11.   Difference between FT and HA
+
+ 
+
+12.   Linux commands
+
+ 
+
+13.   Explain constructor with example
+
+14.   Explain inheritance in Python with example  
+
+15.   Explain Exception handling with example
+
+16.   What are args, kwargs in python, explain their use.
+
+17.   What are decorators with example
+
+18.   What are Lambda functions with example
+
+19.   Explain context managers
+
+20.   What are fixtures and markers
+
+21.   Explain NAS protocols
+
+22.   Difference between NFSv3 and v4
+
+23.  Disadvantage of Raid 6 over 5
+
+24.   Explain usage of Snapshot
+
+25.   Diff between Incremental and Differential backup
+
+26.   Difference between Bug, Defect, and Error
+
+27.   Explain split() and join() functions in Python?
+
+28.   what is a constructor? why is it used?
+
+29.  What is lambda in Python? Why is it used?
+
+30.   What is the difference between Python Arrays and lists?
+
+31.   What are generators in Python?
+
+32.   What is PYTHONPATH in Python?
+
+Answers for question 27 - 32 
+
+1.       You can use split() function to split a string based on a delimiter to a list of strings. You can use join() function to join a list of strings based on a delimiter to give a single string.
+
+2.       contructor method(__init__) is automatically called to allocate memory when a new object/instance is created.
+
+3.       Lambda is an anonymous function in Python, that can accept any number of arguments, but can only have a single expression. example : a = lambda a, b : a+b
+
+4.       Arrays in python can only contain elements of same data types and consumes far less memory than lists Lists in python can contain elements of different data types and consumes large memory.
+
+5.       Generators are functions that return an iterable collection of items, one at a time They employ the use of yield keyword rather than return to return a generator object.
+
+6.       PYTHONPATH is an environment variable which you can set to add additional directories where Python will look for modules and packages
+

@@ -1,0 +1,15 @@
+deepak  
+python  
+jiban   
+Microsoft   
+hcl    
+qualcom   
+intel    
+amd   
+nvidia    
+nest
+
+This is a sample file.
+It contains multiple lines.
+hello, this is the line you're searching for.
+Goodbye.
